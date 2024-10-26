@@ -1,0 +1,30 @@
+/* NotFound.css - Styles for the 404 page */
+.not-found-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .not-found-container h1 {
+    font-size: 48px;
+    color: #ff0000;
+  }
+  
+  .not-found-container p {
+    font-size: 18px;
+    color: #333;
+  }
+  @media (max-width: 768px) {
+    .user-item {
+      padding: 10px;
+    }
+    
+    .user-item h2 {
+      font-size: 18px;
+    }
+    
+    .user-item p {
+      font-size: 12px;
+    }
+  }
+  
+  

@@ -1,0 +1,78 @@
+/* Home.css - Styles for the Home component */
+
+/* Container for the home page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f7f9fc;
+  padding: 20px;
+}
+
+/* Header section with a welcome message */
+.home-header {
+  margin-top: 100px;
+}
+
+.home-header h1 {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.home-header p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Content section with a button */
+.home-content {
+  margin: 0 auto;
+}
+
+.home-button {
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+/* Footer section */
+.home-footer {
+  margin-top: auto;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.home-footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .home-header h1 {
+    font-size: 36px;
+  }
+
+  .home-header p {
+    font-size: 16px;
+  }
+
+  .home-button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
