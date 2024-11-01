@@ -5,7 +5,7 @@ import '../App.css'
 const Header = () => (
   <header>
     <div className="nav container">
-      <a href="#" className="logo">Bakery</a>
+      <a href="#" className="logo">BOTTEGA</a>
       <div className="navbar">
         {['Home', 'Services', 'About', 'Recipes', 'Reviews','connect'].map((item) => (
           <a key={item} href={`#${item.toLowerCase()}`} className="nav-link">{item}</a>
